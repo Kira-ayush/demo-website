@@ -1,0 +1,16 @@
+#contact input,
+#contact textarea {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  border-color: #00c6ff;
+  box-shadow: none;
+}
+
+.contact-form {
+  margin-top: 60px;
+}

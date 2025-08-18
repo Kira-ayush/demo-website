@@ -1,0 +1,41 @@
+
+#about {
+  background-color: #FDFAF6;
+}
+
+#services, #team {
+  background-color: #FAF1E6;
+}
+
+.about-box, .service-box, .card {
+  background-color: #ffffff;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #ddd;
+}
+
+.about-box:hover, .service-box:hover, .card:hover {
+  background-color: #62d7f8;
+  transform: translateY(-5px);
+  border: 1px solid #dddddd;
+}
+
+.about-box:hover h5,
+.service-box:hover h5,
+.card:hover h5,
+.card:hover a {
+  color: #010101;
+}
+
+.about-box:hover p,
+.service-box:hover p,
+.card:hover p {
+  color: #ffffff;
+}
+
+/* Responsive cards */
+@media (max-width: 768px) {
+  .about-box, .service-box, .card {
+    margin-bottom: 20px;
+    padding: 15px;
+  }
+}

@@ -1,0 +1,15 @@
+.team-avatar {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.team-avatar:hover {
+  transform: scale(1.1);
+}
+
+.team-profile img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 1rem;
+}
